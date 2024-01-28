@@ -6,8 +6,8 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "frontend-install": "cd auth-module & npm run install",
-    "backend-install": "cd auth-be & npm run install",
+    "frontend-install": "cd auth-module & npm install",
+    "backend-install": "cd auth-be & npm install",
     "frontend-up": "cd auth-module & npm run start",
     "frontend-build": "cd auth-module & npm run build",
     "backend-up": "cd auth-be & npm run start",
