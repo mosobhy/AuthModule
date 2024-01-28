@@ -12,6 +12,6 @@
     "frontend-build": "cd auth-module & npm run build",
     "backend-up": "cd auth-be & npm run start",
     "backend-build": "cd auth-be & npm run build",
-    "wireup": "npm run backend-install & npm run frontend-install & npm run backend-up & npm run frontend-up"
+    "wireup": "npm run backend-install & npm run frontend-install & npm run backend-up & npm run frontend-up &"
   }
 }
