@@ -2,5 +2,7 @@
 
 ## To start up the application
 ```
-npm run wireup
+npm run backend-up
+npm run frontend-up
 ```
+
