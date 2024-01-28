@@ -6,12 +6,9 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "frontend-install": "cd auth-module & npm install",
-    "backend-install": "cd auth-be & npm install",
-    "frontend-up": "cd auth-module & npm run start",
+    "frontend-up": "cd auth-module & npm run install & npm run start",
     "frontend-build": "cd auth-module & npm run build",
-    "backend-up": "cd auth-be & npm run start",
-    "backend-build": "cd auth-be & npm run build",
-    "wireup": "npm run backend-install & npm run frontend-install & npm run backend-up & npm run frontend-up &"
+    "backend-up": "cd auth-be & npm run install & npm run start",
+    "backend-build": "cd auth-be & npm run build"
   }
 }
