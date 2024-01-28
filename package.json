@@ -1,0 +1,17 @@
+{
+  "name": "auth-service",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "frontend-install": "cd auth-module & npm install",
+    "backend-install": "cd auth-be & npm install",
+    "frontend-up": "cd auth-module & npm start",
+    "frontend-build": "cd auth-module & npm build",
+    "backend-up": "cd auth-be & npm start",
+    "backend-build": "cd auth-be & npm build",
+    "wireup": "npm backend-install & npm frontend-install & npm backend-up & npm frontend-up"
+  }
+}
